@@ -6,7 +6,7 @@ export const tv = {
   buttonLabel: "Comenzar",
   img: "images/img_tv.svg",
   alt: "tv",
-  imgStart: "",
+  imgStart: "start",
   lighBackgroud: true,
   lighHeadText: false,
   lighDescription: false,
@@ -19,6 +19,34 @@ export const series = {
   buttonLabel: "Comenzar",
   img: "images/img_tv.svg",
   alt: "series",
+  imgStart: "",
+  lighBackgroud: false,
+  lighHeadText: true,
+  lighDescription: true,
+};
+
+export const peliculas = {
+  topLine: "Peliculas",
+  headLine: "Disfruta donde quieras.",
+  descripcion:
+    "Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo extra.",
+  buttonLabel: "Comenzar",
+  img: "images/img_tv.svg",
+  alt: "peliculas",
+  imgStart: "start",
+  lighBackgroud: true,
+  lighHeadText: false,
+  lighDescription: false,
+};
+
+export const infantil = {
+  topLine: "INFANTIL",
+  headLine: "Crea perfiles para niños.",
+  descripcion:
+    "Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.",
+  buttonLabel: "Comenzar",
+  img: "images/img_tv.svg",
+  alt: "infantil",
   imgStart: "",
   lighBackgroud: false,
   lighHeadText: true,
